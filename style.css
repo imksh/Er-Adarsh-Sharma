@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    background-color: black;
+}
+.name{
+    
+    color: white;
+    margin-left: 4vw;
+    
+}
+.name1{
+    color: rgb(245, 74, 74);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1vw;
+    
+}
+#home{
+    display: flex;
+    height: 80vh;
+    
+}
+
+#details{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+#profilepic{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#bhawna1pic{
+    margin-top: 0vh;
+    margin-right: 5%;
+    width: 100%;
+    border-radius: 30vh;
+    max-width: 50vh;
+    max-height: 60vh;
+    object-fit: contain;
+    border: 0.5vw solid  rgb(245, 74, 74);
+}
+button{
+    background-color: rgb(245, 74, 74);
+    padding: 2%;
+    border-radius: 7%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li:hover, #homename:hover, #aboutname:hover,#portfolioname:hover {
+    color:  rgb(245, 74, 74);
+}
+a:hover, h1:hover, span:hover{
+    color:rgb(245, 74, 74);
+}
+
+button:hover{
+    background-color: white;
+    color:   rgb(245, 74, 74);
+    cursor: pointer;
+}
+#whatsappbtn:hover{
+    background-color: white;
+    color:  rgb(245, 74, 74);
+}
+#about{
+    display: flex;
+    height: 88vh;
+    background-color: black;
+    color: white;
+    padding: 1vh;
+    font-weight: bold;
+}
+#aboutme{
+    display: inline-block;
+    margin-top: 35vh;
+    text-align: center;
+    justify-content: center;
+}
+.divbtn{
+    margin-top: 2%;
+}
+#whatsappbtn{
+    background-color: rgb(13, 105, 17);
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    padding-bottom: 2%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 0.5vh dotted gray;
+
+}
+#div2{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pfimg{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+}
+.pfimg:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
